@@ -12,9 +12,9 @@ module.exports = function test(testName, testFunction) {
       });
   });
 
-  return {
+  console.log({
     test: testName,
     result: `${results.length - errors.length}/${results.length}`,
     errors: errors,
-  };
+  });
 };
