@@ -13,3 +13,10 @@ To receive possible moves you should follow these steps:
   - Horse
   - Rook
 - On created object use method new(position)
+- Run with _node ./main.js_
+
+### How to test it?
+
+To run on of created unit test use command:
+
+_node ./tests/unit/test-name.js_
